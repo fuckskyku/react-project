@@ -1,0 +1,27 @@
+.app-footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 0.5rem;
+	padding: 0.05rem 0;
+	display: flex;
+	background: snow;
+	border-top: 1px solid #f1f1f1;
+	a{
+		flex-grow:1;
+		flex-shrink:1;
+		display: flex;
+		justify-content:space-between;
+		align-items:center;
+		flex-flow:column;
+		text-decoration: none;
+		font-size: 0.14rem;
+		color: #696969;
+		i{
+			font-size: 0.2rem;
+		}
+		&.active{
+		    color: #E54847;
+		}
+	}
+}

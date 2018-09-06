@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.home {
+
+	header{
+		width: 100%;
+		height: 0.53rem;
+		text-align: center;
+		line-height: 0.53rem;
+		color: white;
+		background: #333;
+	}
+	.tab-bar{
+		width: 100%;
+		height: 100%;
+		z-index: 999;
+		a{
+			color: #333;
+			
+		}
+		nav{
+			width: 100%;		
+			ul{
+				width: 100%;
+				display: flex;
+				border-bottom: 1px solid darkorange;
+				li{
+					display: flex;
+					flex: 1;
+					flex-direction: column;
+					width: 50%;
+					list-style: none;
+					text-align: center;
+					color: #343434;
+					border-bottom: 2px solid transparent;
+				}
+				li:hover{
+					border-bottom: 2px solid darkorange;
+				}
+			}
+		}
+	}
+	.content{
+		padding: 0.2rem;
+		.text{
+			padding: 0.1rem;
+			overflow: hidden;
+			.left{
+				font-size: 0.14rem;
+				p{
+					margin: 0;
+				}
+				.count{
+					color: #9A9A9A;
+				}
+			}
+			.right{
+				color: #F78360;
+				font-size: 0.22rem;
+				line-height: 0.4rem;
+			}
+		}
+		.more{
+			text-align: center;
+			margin: 0.3rem 0 0.6rem 0;
+			button{
+				width: 2rem;
+				height: 0.38rem;
+				line-height: 0.38rem;
+				text-align: center;
+				border: 1px solid #C5C5C5;
+				background: #EBEBEB;
+				border-radius: 0.38rem;
+				color: #616161;
+				font-size: 0.12rem;
+			}
+		}
+		.line{
+			position: relative;
+			margin-bottom: 0.6rem;
+			span{
+				display: block;
+				width: 0.8rem;
+				height: 0.3rem;
+				line-height: 0.3rem;
+				border-radius: 0.05rem;
+				text-align: center;
+				font-size: 0.12rem;
+				color: #E3EEE3;
+				background: #A7A7A7;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-top: -0.15rem;
+				margin-left: -0.4rem;
+			}
+			hr{
+				border-top: 1px solid #e0e0e0;
+			}
+		}
+	}
+	
+    .banner .img-box {
+        height: 2.1094rem;
+        width: 100%;
+				
+        img {
+            display: block;
+						width: 100%;
+        }
+        
+        
+    }
+		.img-box{
+			border: 1px solid #ccc;
+			box-shadow: 2px 2px 8px #ccc;
+			margin-bottom: 0.2rem;
+			background: white;
+		}
+    .banner { 
+      .swiper-pagination-bullet-active{
+            background: #555;
+        }
+    }
+    .banner .swiper-wrapper{
+        height: 2.1094rem;
+    }
+    .pic_bg{
+       
+    }
+}
+
+.soon{
+	
+}
+
+
+.show{
+	
+}
+
+
+
+.box{
+	width:100%;
+	background: #EBEBEB;
+}
+
+.head_list{//div是块级元素，定义为float后在宽度允许的情况下，能在一行内容纳
+	width: 100%;
+	display: flex;
+	border-bottom: 1px solid darkorange;
+	background: white;
+	li{
+		padding: 0.16rem;
+		display: flex;
+		flex: 1;
+		flex-direction: column;
+		width: 50%;
+		list-style: none;
+		text-align: center;
+		border-bottom: 2px solid transparent;
+	}
+	li:hover{
+		border-bottom: 2px solid darkorange;
+	}
+}
+
+.active{//初始及点击后的按钮类
+	color: coral;
+}
+
+.back-top{
+	position: fixed;
+	right: 0.3rem;
+	bottom:0.8rem;
+	color: #333;
+	font-size: 0.26rem;
+	z-index: 1000;
+	opacity: 0.1;
+	transition: all 0.5s;
+} 
